@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Donation Causes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body class="d-flex flex-column h-100">
+  <div class="container-fluid">
+  <div class="row">
+    <!-- sidebar -->
+      <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse vh-100 p-3">
+     <h5 class="mb-4">Overview</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item"><a class="nav-link" href="index.html">Dashboard</a></li>
+        <li class="nav-item"><a class="nav-link active" href="dashboard.html">Donation Causes</a></li>
+        <li class="nav-item"><a class="nav-link" href="needy.html">Needy Contacts</a></li>
+        <li class="nav-item"><a class="nav-link" href="donors.html">Donation Givers</a></li>
+        <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+      </ul>
+    </nav>
+    <!-- main content -->
+       <main class="col-md-9 col-lg-10 ms-sm-auto px-md-4 py-4">
+    <!-- Card 1 -->
+<div class="container mt-5">
+<div class="row">
+   <h2 class="mb-4 text-center">Donation Causes</h2>
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <div class="card h-100 shadow-sm">
+     <div class="card-body">
+    <h5 class="card-title">Emergency Medical Support for Ayesha</h5>
+     <p class="card-text">
+      Ayesha is a 7-year-old child diagnosed with a severe heart condition and urgently needs surgery to survive.</p>
+       <p class="mb-1"><strong>Required Amount:</strong>PKR 500,000</p>
+       <p class="mb-2"><strong>Amount Collected:</strong>PKR 320,000</p>
+      <div class="progress mb-3">
+  <div class="progress-bar" role="progressbar" style="width: 64%;" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100">64%</div>
+  </div>
+  <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#donationModal1">Donate Now</button>
+   </div>
+  </div>
+</div>
+
+<!-- Card 2 -->
+<div class="col-lg-4 col-md-6 col-12 mb-4">
+    <div class="card h-100 shadow-sm">
+     <div class="card-body">
+    <h5 class="card-title">Education Support for Underprivileged Students</h5>
+     <p class="card-text">
+      This cause aims to provide school fees, books, and uniforms for children from low-income families.</p>
+       <p class="mb-1"><strong>Required Amount:</strong>PKR 300,000</p>
+       <p class="mb-2"><strong>Amount Collected:</strong>PKR 180,000</p>
+      <div class="progress mb-3">
+      <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+    </div>
+     <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#donationModal2">View Details</button>
+   </div>
+  </div>
+  </div>
+
+<!-- Card 3 -->
+  <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <div class="card h-100 shadow-sm">
+     <div class="card-body">
+    <h5 class="card-title">Flood Relief for Affected Families</h5>
+     <p class="card-text">
+      Help families affected by recent floods with food supplies, shelter, and basic necessities.</p>
+       <p class="mb-1"><strong>Required Amount:</strong>PKR 800,000</p>
+       <p class="mb-2"><strong>Amount Collected:</strong>PKR 610,000</p>
+      <div class="progress mb-3">
+  <div class="progress-bar" role="progressbar" style="width: 76%;" aria-valuenow="76" aria-valuemin="0" aria-valuemax="100">76%</div>
+  </div>
+  <button class="btn btn-primary w-100"  data-bs-toggle="modal"  data-bs-target="#donationModal3">Donate Now</button>
+   </div>
+  </div>
+  </div>
+<!-- card 4 -->
+    <div class="col-lg-4 col-md-6 col-12 mb-4">
+    <div class="card h-100 shadow-sm">
+     <div class="card-body">
+    <h5 class="card-title">Cancer Treatment Assistance Fund</h5>
+     <p class="card-text">
+     Support patients who cannot afford chemotherapy and essential medical treatments.</p>
+       <p class="mb-1"><strong>Required Amount:</strong>PKR 1000,000</p>
+       <p class="mb-2"><strong>Amount Collected:</strong>PKR 450,000</p>
+      <div class="progress mb-3">
+  <div class="progress-bar" role="progressbar" style="width: 45%;" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">45%</div>
+  </div>
+  <button class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#donationModal4">View Details</button>
+   </div>
+  </div>
+  </div>
+  
+  </div>
+</div>
+<!-- donation Givers -->
+ <!-- card 1 -->
+
+<div class="modal fade" id="donationModal1" tabindex="-1" aria-labelledby="donationModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="donationModal1">Emergency Medical Support for Ayesha</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Ayesha is a 7-year-old child diagnosed with a severe heart condition and urgently needs surgery to survive.</p>
+        <p><strong>Needy Person/ Organization:</strong> Ayesha / Helping Hearts NGO</p>
+        <p><strong>Contact:</strong> 0312-4567786 | info@helpinghearts.org</p>
+        <p><strong>Donation Instructions:</strong> You can donate via bank transfer or online payment gateway</p>
+        <span class="badge bg-success">Verified</span>
+        <span class="badge bg-danger">Urgent</span>
+        <span class="badge bg-info">Medical</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Donate Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- for Card 2 -->
+ <div class="modal fade" id="donationModal2" tabindex="-1" aria-labelledby="donationModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="donationModal2">Education Support for Underprivileged Students</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>This initiative aims to provide school fees, books, and uniforms for children from low-income families. Many students are at risk of dropping out without support.</p>
+        <p><strong>Needy Person/ Organization:</strong> Helping Hands Foundation / Local Schools</p>
+        <p><strong>Contact:</strong> 0300-2346743 | mailto:education@helpinghands.org</p>
+        <p><strong>Donation Instructions:</strong> You can donate via bank transfer or online payment gateway</p>
+        <span class="badge bg-success">Verified</span>
+        <span class="badge bg-danger">Education</span>
+        <span class="badge bg-info">Ongoing</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Donate Now</button>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!-- For Card 3 -->
+
+<div class="modal fade" id="donationModal3" tabindex="-1" aria-labelledby="donationModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="donationModal3">Flood Relief for Affected Families</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Recent floods have affected hundreds of families. This cause provides food supplies, temporary shelter, and basic necessities to help them recover.</p>
+        <p><strong>Needy Person/ Organization:</strong> Flood Relief Committee / Local Volunteers</p>
+        <p><strong>Contact:</strong> 0312-4567786 | mailto:floodrelief@example.com</p>
+        <p><strong>Donation Instructions:</strong> You can donate via bank transfer or online payment gateway</p>
+        <span class="badge bg-success">Verified</span>
+        <span class="badge bg-danger">Urgent</span>
+        <span class="badge bg-info">Emergency </span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Donate Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- For Card 4 -->
+ <div class="modal fade" id="donationModal4" tabindex="-1" aria-labelledby="donationModalLabel1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="donationModal4">Cancer Treatment Assistance Fund</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Support patients who cannot afford chemotherapy and essential medical treatments. This fund aims to save lives and reduce the financial burden on families.</p>
+        <p><strong>Needy Person/ Organization:</strong> Cancer Care Trust / Local Hospitals</p>
+        <p><strong>Contact:</strong> 0312-4567786 | mailto:cancerfund@example.com</p>
+        <p><strong>Donation Instructions:</strong> You can donate via bank transfer or online payment gateway</p>
+        <span class="badge bg-success">Verified</span>
+        <span class="badge bg-danger">Ongoing</span>
+        <span class="badge bg-info">Medical</span>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Donate Now</button>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+</div>
+</div>
+<!-- footer -->
+ <footer class="footer mt-auto py-4 bg-light border-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>Donation platform</h5>
+        <p>Connecting donors with those in need.</p>
+      </div>
+      <div class="col-md-4">
+        <h6>Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="index.html">Dashboard</a></li>
+          <li><a href="dashboard.html">Donation Causes</a></li>
+          <li><a href="needy.html">Needy Contacts</a></li>
+          <li><a href="donors.html">Donation Givers</a></li>
+          <li><a href="reports.html">Reports</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <h6>Contact</h6>
+        <p>Email: info@udevs.org</p>
+        <p>Phone: +92 300 1234567</p>
+        <p>&copy; 2026 U Devs. All rights reserved.</p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
